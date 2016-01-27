@@ -15,6 +15,7 @@ The following **optional** features are implemented:
 * [x] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
+* [x] Added split feature
 * [x] Moved everything above the keypad so user can always see everything needed, thus no need to swipe away keypad :)
 * [x] Moved percentages up so it's more accessible.
 - [ ] List anything else that you can get done to improve the app functionality!
