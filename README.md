@@ -2,7 +2,7 @@
 
 Submitted by: **Kevin Zhu**
 
-Time spent: **2.4** hours spent in total
+Time spent: **4.5** hours spent in total
 
 ## User Stories
 
@@ -11,7 +11,7 @@ The following **required** functionality is complete:
 
 The following **optional** features are implemented:
 * [x] Custom font
-* [ ] UI animations
+* [x] UI animations
 * [x] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
@@ -23,13 +23,15 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![Video Walkthrough](Tipping Calculator V1 KZHU.gif)
+![Video Walkthrough](Tipping Calculator V2 KZHU.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+Spent a ton of time not finding that I'd put a linebreak into the code and simulator kept crashing. 
+Looked up online resources and got help from classmates for various functions, like keyboard hiding, animation. 
 
 ## License
 
