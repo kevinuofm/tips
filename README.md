@@ -2,7 +2,7 @@
 
 Submitted by: **Kevin Zhu**
 
-Time spent: **4.5** hours spent in total
+Time spent: **6** hours spent in total
 
 ## User Stories
 
