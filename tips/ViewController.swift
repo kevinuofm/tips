@@ -16,6 +16,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var tipControl: UISegmentedControl!
     
     @IBOutlet weak var movingView: UIView!
+    @IBOutlet weak var split2: UILabel!
+    @IBOutlet weak var split3: UILabel!
+    
+    @IBOutlet weak var split4: UILabel!
+    
+    @IBOutlet weak var split5: UILabel!
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,13 +44,16 @@ class ViewController: UIViewController {
     
     @IBAction func onEditingChanged2(sender: AnyObject) {
         UIView.animateWithDuration(1) { () -> Void in
-            self.movingView.center.y = 180      // this moves the movingView.
+            self.movingView.center.y = 280      // this moves the movingView.
             //self.movingView.frame.orgin.y = -XXX
         }
         
         UIView.animateWithDuration(1) { () -> Void in
-            self.billField.center.y = 80
+            self.billField.center.y = 80  // moves the billField
         }
+        
+     //   billField.text = String(format: "$%", billField.text!)
+
         
     }
     
@@ -64,6 +75,18 @@ class ViewController: UIViewController {
 
         tipLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "%.2f", total)
+        
+        split2.text = "$\(total/2)" // calculate and display split with 2 people. 
+        split3.text = "$\(total/3)" // calculate and display split with 2 people.
+        split4.text = "$\(total/4)" // calculate and display split with 2 people.
+        split5.text = "$\(total/5)" // calculate and display split with 2 people.
+        
+        split2.text = String(format: "$%.2f", total/2) //formats the text to 2 decimals and adds a dollar sign in front.
+        split3.text = String(format: "$%.2f", total/3)
+        split4.text = String(format: "$%.2f", total/4)
+        split5.text = String(format: "$%.2f", total/5)
+
+        
     }
     
     @IBAction func onTap(sender: AnyObject) {
