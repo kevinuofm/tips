@@ -40,7 +40,9 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
+
 Spent a ton of time not finding that I'd put a linebreak into the code and simulator kept crashing. 
+
 Looked up online resources and got help from classmates for various functions, like keyboard hiding, animation. 
 
 For some reason, I still can't get the "$" to appear in front of Bill Field without throwing error with:  billField.text = String(format: "$%2f", billField.text!) 
