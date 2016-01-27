@@ -24,9 +24,11 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 V1: 
+
 ![Video Walkthrough](Tipping Calculator V1 KZHU.gif)
 
 V2:
+
 ![Video Walkthrough](Tipping Calculator V2 KZHU.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
