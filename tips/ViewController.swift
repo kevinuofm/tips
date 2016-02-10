@@ -40,6 +40,7 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        
     }
     
     @IBAction func onEditingChanged2(sender: AnyObject) {
@@ -52,7 +53,7 @@ class ViewController: UIViewController {
             self.billField.center.y = 80  // moves the billField
         }
         
-     //   billField.text = String(format: "$%", billField.text!)
+     //   billField.text = String(format: "$%2f", billField.text!)
 
         
     }
